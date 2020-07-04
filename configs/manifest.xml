@@ -340,6 +340,7 @@
         </interface>
         <fqname>@1.2::ISupplicant/default</fqname>
     </hal>
+    <!--
     <hal format="hidl">
         <name>vendor.lineage.power</name>
         <transport>hwbinder</transport>
@@ -367,7 +368,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <!--
     <hal format="hidl">
         <name>vendor.lineage.livedisplay</name>
         <transport>hwbinder</transport>
