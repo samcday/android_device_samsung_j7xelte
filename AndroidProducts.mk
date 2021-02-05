@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_j7xelte.mk
+    $(LOCAL_DIR)/aosp_j7xelte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_j7xelte-user \
-    lineage_j7xelte-userdebug \
-    lineage_j7xelte-eng
+    aosp_j7xelte-user \
+    aosp_j7xelte-userdebug \
+    aosp_j7xelte-eng
