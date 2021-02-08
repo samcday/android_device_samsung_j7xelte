@@ -1,3 +1,4 @@
+CorvusOS Q device tree - j7xelte
 The Samsung J7 2016 (codenamed _"j7xelte"_) are a mid-range smartphone from Samsung. It was announced and released in March 2016.
 
 ## Device specifications

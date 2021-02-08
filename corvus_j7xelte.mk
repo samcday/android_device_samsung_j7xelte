@@ -22,12 +22,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from j7xelte device
 $(call inherit-product, device/samsung/j7xelte/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Corvus stuff.
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := j7xelte
-PRODUCT_NAME := lineage_j7xelte
+PRODUCT_NAME := corvus_j7xelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
@@ -37,3 +37,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.corvus.maintainer=Gonic
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
